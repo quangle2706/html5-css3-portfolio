@@ -1,0 +1,208 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 5%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    position: sticky;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #495E57;
+    border-radius: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #495E57;
+    font-weight: bold;
+}
+
+nav li:hover a {
+    color: #EDEFEE;
+}
+
+/* Hero section */
+.hero-section {
+    background-color: aquamarine;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.hero-section .hero-title {
+    position: absolute;
+    z-index: 1;
+}
+
+.hero-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Overview section */
+.overview-section {
+    background-color: coral;
+    padding: 20px 15px;
+}
+
+.overview-section .overview-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.overview-content-box {
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100px;
+}
+
+/* Badge section */
+.badge-section {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.octagon {
+    width: 80px;
+    height: 80px;
+    background-color: #EDEFEE;
+    clip-path: polygon(50% 0%, 85% 15%, 100% 50%, 85% 85%, 50% 100%, 15% 85%, 0% 50%, 15% 15%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Project section */
+.project-section {
+    background-color: thistle;
+    padding: 20px;
+}
+
+.project-section .project-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.project-card .project-card-content {
+    padding: 0 20px 20px 20px;
+}
+
+/* Blog section */
+.blog-section {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-section .blog-header ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.blog-section .blog-header ul li {
+    padding: 5px;
+}
+
+.blog-section .blog-header ul li:hover a {
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.straight-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.blog-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-list .blog-post {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFEE;
+}
+
+.blog-list .blog-post img {
+    width: 100%;
+}
+
+.blog-list .blog-post .blog-content .blog-sub-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Contact section */
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-section .contact-form {
+    flex: 1;
+}
+
+.contact-section .contact-img-box {
+    flex: 1;
+}
+
+.contact-img-box img {
+    width: 100%;
+}
+
+
+
