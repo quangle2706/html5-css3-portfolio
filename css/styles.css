@@ -193,7 +193,7 @@ nav li:hover a {
     bottom: -5px;
     right: 0;
     width: 3px;
-    background-color: #000;
+    background-color: #F09819;
     transform: translate(15px, 0px);
 }
 
@@ -518,6 +518,7 @@ nav li:hover a {
     height: 40px;
     border-radius: 15px;
     padding: 0 10px;
+    font-size: 16px;
 }
 
 .contact-form form .form-textarea {
@@ -539,6 +540,7 @@ nav li:hover a {
     width: 100%;
 }
 
+/* Footer */
 footer {
     margin-top: 40px;
     display: grid;
